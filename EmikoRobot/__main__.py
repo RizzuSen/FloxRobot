@@ -390,7 +390,7 @@ def emiko_about_callback(update, context):
                 ]
             ),
         )
-    elif query.data == "emiko_back":
+    elif query.data == "flox_back":
         first_name = update.effective_user.first_name
         uptime = get_readable_time((time.time() - StartTime))
         query.message.edit_text(
@@ -405,7 +405,7 @@ def emiko_about_callback(update, context):
                 disable_web_page_preview=False,
         )
 
-    elif query.data == "emiko_admin":
+    elif query.data == "flox_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
             f"\nCongragulations, {dispatcher.bot.first_name} now ready to manage your group."
@@ -422,7 +422,7 @@ def emiko_about_callback(update, context):
             ),
         )
 
-    elif query.data == "emiko_notes":
+    elif query.data == "flox_notes":
         query.message.edit_text(
             text=f"<b>๏ Setting up notes</b>"
             f"\nYou can save message/media/audio or anything as notes"
@@ -433,7 +433,7 @@ def emiko_about_callback(update, context):
                 [[InlineKeyboardButton(text="Go Back", callback_data="emiko_")]]
             ),
         )
-    elif query.data == "Flox-Supportt":
+    elif query.data == "flox-Supportt":
         query.message.edit_text(
             text="*๏ Flox support chats*"
             f"\nJoin My Support Group/Channel for see or report a problem on {dispatcher.bot.first_name}.",
@@ -453,7 +453,7 @@ def emiko_about_callback(update, context):
         )
 
 
-    elif query.data == "emiko_credit":
+    elif query.data == "flox_credit":
         query.message.edit_text(
             text=f"๏ Credis for {dispatcher.bot.first_name}\n"
             f"\nHere Developers Making And Give Inspiration For Made The {dispatcher.bot.first_name}",
@@ -798,7 +798,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                "👋 Hi, i'm alive.",
+                "👋 Hi, I'M Alive.",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
