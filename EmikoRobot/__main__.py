@@ -433,16 +433,16 @@ def emiko_about_callback(update, context):
                 [[InlineKeyboardButton(text="Go Back", callback_data="emiko_")]]
             ),
         )
-    elif query.data == "emiko_support":
+    elif query.data == "Flox-Supportt":
         query.message.edit_text(
-            text="*๏ Emiko support chats*"
+            text="*๏ Flox support chats*"
             f"\nJoin My Support Group/Channel for see or report a problem on {dispatcher.bot.first_name}.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/emikosupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/KennedyProject"),
+                    InlineKeyboardButton(text="Support", url="t.me/Floxsupporttgroup"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/xcloudbase"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
