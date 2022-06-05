@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
- I'm an anime management and music robot [try](https://telegra.ph/file/35224882d8e8b22f8f00d.jpg)
+ I'm an anime management and music robot [🐿](https://telegra.ph/file/35224882d8e8b22f8f00d.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
