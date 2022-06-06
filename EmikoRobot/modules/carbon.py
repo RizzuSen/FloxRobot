@@ -32,7 +32,7 @@ async def repo(_, message):
         photo=MEMEK,
         caption=f"""✨ **Hey I'm Flox Robot** 
 
-**Owner repo : [zu volidgoad](https://t.me/xzuvolidgoad)**
+**Owner repo : [zu volidgoad](https://t.me/xzuvoldigoad)**
 **Python Version :** `{y()}`
 **Library Version :** `{o}`
 **Telethon Version :** `{s}`
