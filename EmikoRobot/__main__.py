@@ -82,8 +82,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hello {} !*
- my name is Flox X I'm a group management+music
+ Heloo {} ! my name is Flox X I'm a group management+music
  bot and here to help managing your groups.
 ────────────────────────
 × *Uptime:* `{}`
