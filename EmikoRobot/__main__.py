@@ -84,10 +84,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
  Hey there! I am  𝗙𝗹𝗼𝘅 𝗫​.
 Im an Anime themed Group Management and music Bot, feel free to add me to your groups!
-────────────────────────
-× *Uptime:* `{}`
-× `{}` *users, across* `{}` *chats.*
-────────────────────────
+
  Hit /help to see my available commands.
 """
 
